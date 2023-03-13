@@ -16,7 +16,7 @@ class testController extends AbstractController
         return $this->render("test\show.html.twig");
     }
     #[Route('/test')]
-    function test(calculateur git
+
     function test1()
     {
         return new Response("<H1>Bonjour tout le monde</H1>");
